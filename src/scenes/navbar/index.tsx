@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import Logo from '@/assets/Logo.png'
 import Link from './Link'
@@ -9,7 +9,6 @@ import ActionButton from '@/assets/shared/ActionButton'
 
 type Props = {
     isTopOfPage: boolean,
-    page: string,
     selectedPage: SelectedPage,
     setSelectedPage: (value: SelectedPage) => void
 }
